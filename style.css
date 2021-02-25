@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "Helvetica Neue LT Pro";
+    src: url(fonts/HelveticaNeueLTPro-BdCn.otf);
+}
+
+@font-face {
+    font-family: "Century Std Book";
+    src: url(fonts/CenturyStd-Book.otf)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue LT Pro", sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    background-color: #ffffff;
+}    
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding-top: 5px;
+    /*text-shadow: 1px px #72629a;*/
+}
+
+#content {
+    font-size: 2.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.021em;
+    line-height: 1.15em;
+    max-width: 1040px;
+    min-width: 570px;
+    margin: 230px auto 0;
+}
+
+#content p {
+    margin-bottom: 50px;
+}
+
+#content:after {
+    padding-top: 40px;
+    content: "-";
+    display: block;
+}
+
+.serif {
+    font-family: "Century Std Book", serif;
+    letter-spacing: 0.005em;
+}
+
+#toolbar {
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+
+#toolbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#toolbar li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#toolbar li a {
+    font-size: 18px;
+    letter-spacing: .021em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+#toolbar li a:hover {
+    border-bottom: 1px solid;
+}
+
+.awards {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.021em;
+    padding: 60px 100px 0;
+}
+
+.awards ul {
+    list-style: none;
+    position: relative;
+    left: -40px;
+}
+
+.awards li {
+    font-family: "Century Std Book", serif;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 0.021em;
+}
+
+.awards li:nth-child(even){
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#container {
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+
+#left-bar {
+    width: 25%;
+    min-width: 200px;
+    display: inline-block;
+    margin-top: 30px;  
+}
+
+#left-bar img {
+    width: 100%;
+}
+
+.frame {
+    padding: 5px 15px 15px;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#left-bar .frame img {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.references {
+    margin-top: 30px;
+    text-align: center;
+}
+  
+a.btn {
+    font-size: 16px;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #4e4c80
+}
+  
+a.btn:hover {
+    box-shadow: 1px 1px 2px #4e4c80 inset;
+}
+
+.section-one {
+    background: url('images/background-01.png') left bottom no-repeat;
+    background-size: 720px auto;
+    background-attachment: scroll;  
+    position: relative;
+    left: -40px;
+}
+
+.section-one p {
+    position:relative;
+    left: 40px;
+}
+
+/* a.btn:hover {
+    box-shadow: 1px 1px 2px #4e4c80 inset; */
+    /* background: red;
+    transition-duration: 1s;
+    transition-delay: 1s;
+} */
+
+
+/* a.btn:hover {
+    transform: rotate(90deg);
+    transition-delay: 1s;    
+} */
+
+ .section-two {
+    background: url('images/background-02.png') right top no-repeat;
+    background-size: 420px auto;
+    background-attachment: scroll;
+    position: relative;
+    right: -40px;
+}
+
+.section-two p {
+    position: relative;
+    right: 40px;
+}
+
+.section-three {
+    background: url('images/background-03.png') left bottom no-repeat;
+    background-size: 620px auto;
+    background-attachment: scroll;
+    position: relative;
+    left: 100px;
+}
+
+.section-three p {
+    position: relative;
+    left: -100px;
+}
+
+.section-four {
+    background: url('images/background-04.png') right center no-repeat;
+    background-size: 620px auto;
+    background-attachment: scroll;
+    position: relative;
+    right: 120px;
+}
+
+.section-four p {
+    position: relative;
+    right: -120px;
+} 
